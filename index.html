@@ -1,68 +1,137 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Project: Blog</title>
-    </head>
-    <body>
-    
-    <style>
-        body {
-            font-family: "Helvetica", sans-serif;
-            background-color: rgb(106, 173, 232);
-        }
-        h1 {
-            font-weight: bold;
-            font-size: 50px;
-            color: blue;
-            text-align: right;
-        }
-        
-        h2 {
-            font-weight: bold;
-            font-style: italic;
-            color: indigo;
-            
-            font-size: 25px;
-        }
-        h3 {
-            font-weight: bold;
-            color: rgb(83, 9, 230);
-        }
-        h6 {
-            color: white;
-        }
-        p {
-            font-family: cursive;
-            color: rgb(83, 9, 230);
-            line-height: 2em;
-        }
-        footer {
-            color: white;
-            font-family: cursive;
-            text-align: center;
-        }
-    </style>
-        
-        <h1>Holly's blog</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
 
-        <h3>Contents</h3>
-        <ul>
-            <li><a href="#Begin">The Beginning!</a></li>
-            <li><a href="#Right Here">Right Here, Right Now...</a></li>
-        </ul>
-        
-        <h2 id="Begin">The Beginning</h2>
-        <h6>Posted May 20, 2019</h6>
-        
-        <p>I started looking up how to create a portfolio for my artwork and heard about an upcoming Code101 class through Codefellows that would teach me how to build a website in a day! So, I went and I worked with a team and we created a website about Seattle Artwalks. They also talked about their courses and recommended Codeacademy and Khanacademy to learn the Intro to HTML, CSS and Javascript Tutorials, which also would be a good prep for their entrance exam at Codefellows.</p>
-        
-        <h2 id="Right Here">Right Here, Right Now...</h2>
-        <h6>Posted May 20, 2019</h6>
-        
-        <p>Well after taking the Codeacademy Intro to HTML and part of the CSS course the 7 day free trial of pro access ran out, which leads me right here so I decided to check out Khanacademy. To be honest, I think Code Academy has a nicer learning program but they charge you to get everything. I have learned quite a bit of HTLM5 and really love the design possibilities of CSS. I am enjoying what I'm learning so far and putting that knowledge to use while I work on creating an amazing portfolio! I could even see myself changing careers! What else is possible?</p>
-        
-    </body>
-    <footer>Thank you for reading my blog ~ <em>Holly</em>
+    <title>Album example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">When I am inspired, I draw. When inspired by what I drew, I share. Thanks for looking!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand">Album</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Lucas Amunategui</h1>
+          <p class="lead text-muted">Art Portfolio</p>
+        </div>
+      </section>
+
+      <div class="album text-muted">
+        <div class="container">
+
+          <div class="row">
+            <div class="card">
+              <img src="images/lucas-amunategui-drowning.JPG" alt="image 2017" style="width:100%"  
+                   data-toggle="modal" data-target="#myModal">
+              <p class="card-text">Drowning 2017</p>
+            </div>
+            <div class="card">
+              <img src="images/lucas-amunategui-charcoal.JPG" alt="image 2017" style="width:100%"  
+               data-toggle="modal" data-target="#myModal">
+              <p class="card-text">Charcoal 2017</p>
+            </div>
+            <div class="card">
+              <img src="images/lucas-amunategui-building.JPG" alt="image 2017" style="width:100%"
+                   data-toggle="modal" data-target="#myModal">
+              <p class="card-text">Building 2017</p>            
+            </div>
+             <div class="card">
+              <img src="images/lucas-amunategui-nose.jpg" alt="image 2017" style="width:100%"  
+                   data-toggle="modal" data-target="#myModal">
+              <p class="card-text">Face 1 2017</p>
+            </div>
+            <div class="card">
+              <img src="images/lucas-amunategui-face-2.JPG" alt="image 2017" style="width:100%"  
+               data-toggle="modal" data-target="#myModal">
+              <p class="card-text">Face 2 2017</p>
+            </div>
+            <div class="card">
+              <img src="images/lucas-amunategui-face-3.JPG" alt="image 2017" style="width:100%"
+                   data-toggle="modal" data-target="#myModal">
+              <p class="card-text">Face 3 2017</p>            
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+      
+      <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img class="img-responsive" src="" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      
+ 
+      
+       
+ </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
+      </div>
     </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
+    <script>
+    $(document).ready(function () {
+            $('#myModal').on('show.bs.modal', function (e) {
+                var image = $(e.relatedTarget).attr('src');
+                $(".img-responsive").attr("src", image);
+            });
+    });
+    </script> 
+  </body>
 </html>
